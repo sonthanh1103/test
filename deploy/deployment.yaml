@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/sonthanh1103/test:sha-dac1f56
+          image: ghcr.io/sonthanh1103/test:sha-00907b8
           ports:
             - containerPort: 5000
           resources:
