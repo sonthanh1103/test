@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return f"<h1>Hello tu container: {socket.gethostname()}</h1>\n"
+    return f"<h1>Phien ban moi tu container: {socket.gethostname()}</h1>\n"
 
 @app.route("/health")
 def health():
