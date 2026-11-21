@@ -9,4 +9,4 @@ def index():
 
 @app.route("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "broken"}
